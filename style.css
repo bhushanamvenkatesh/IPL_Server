@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.options {
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+.option-container a{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+
+.logo {
+    width: 70%;
+    cursor: pointer;
+}
+
+.nav {
+    background: linear-gradient(92.04deg, #18184A 24.18%, #19398A 50.95%, #18184A 110.32%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    color:white;
+}
+
+.ipl-container {
+    background-size: cover;
+    color: rgb(233, 226, 226);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.problems-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.each-problem {
+    border: solid goldenrod;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 25px;
+    text-align: center;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* login page */
+
+.form-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+}
+
+.input{
+    width: 35vw;
+    outline: none;
+    padding: 8px;
+    margin: 6px 0px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buton-container{
+    text-align: center;
+    margin: 5px;
+}
+
+.submit-button{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid white;
+    min-width: 15%;
+}
+
+
+@media screen and (min-width:320px) and (max-width:765px) {
+    a {
+
+        color: white;
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .each-problem {
+        flex-basis: 16%;
+        padding: 25px;
+    }
+
+    .option-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .input{
+        width: 65vw;
+    }
+
+    .logo{
+        display: none;
+    }
+}
